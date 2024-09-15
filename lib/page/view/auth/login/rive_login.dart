@@ -142,6 +142,7 @@ class _RiveLoginPageState extends State<RiveLoginPage> {
                           const SizedBox(
                             height: 40,
                           ),
+                          // login button
                           GestureDetector(
                             onTap: () {
                               if(formKey.currentState!.validate()){
