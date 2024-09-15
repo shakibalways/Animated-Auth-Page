@@ -32,6 +32,7 @@ class _RiveLoginPageState extends State<RiveLoginPage> {
   void hidePassword(){
     isHandsUp?.change(true);
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
