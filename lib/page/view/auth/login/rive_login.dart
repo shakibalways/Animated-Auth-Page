@@ -18,6 +18,7 @@ class _RiveLoginPageState extends State<RiveLoginPage> {
   SMIInput<bool>? trigSuccess;
   SMIInput<bool>? trigFail;
   SMINumber? numLook;
+
   late StateMachineController? stateMachineController;
   void isCheckField(){
     isHandsUp?.change(false);
