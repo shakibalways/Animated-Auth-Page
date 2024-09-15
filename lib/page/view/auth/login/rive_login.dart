@@ -111,6 +111,7 @@ class _RiveLoginPageState extends State<RiveLoginPage> {
                           const SizedBox(
                             height: 20,
                           ),
+                          //password field
                           TextFormField(
                             onTap: hidePassword,
                             controller: passwordController,
