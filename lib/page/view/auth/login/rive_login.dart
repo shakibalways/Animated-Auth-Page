@@ -33,6 +33,7 @@ class _RiveLoginPageState extends State<RiveLoginPage> {
   void moveEYEBol(value){
     numLook?.change(value.length.toDouble());
   }
+  // hide password function
   void hidePassword(){
     isHandsUp?.change(true);
   }
