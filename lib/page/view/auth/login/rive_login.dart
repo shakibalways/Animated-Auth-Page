@@ -15,6 +15,7 @@ class _RiveLoginPageState extends State<RiveLoginPage> {
   final TextEditingController userNameController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
 
+  // rive
   SMIInput<bool>? isChecking;
   SMIInput<bool>? isHandsUp;
   SMIInput<bool>? trigSuccess;
