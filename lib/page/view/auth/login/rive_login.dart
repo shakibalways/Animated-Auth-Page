@@ -29,7 +29,7 @@ class _RiveLoginPageState extends State<RiveLoginPage> {
     isChecking?.change(true);
     numLook?.change(0);
   }
-
+// move
   void moveEYEBol(value){
     numLook?.change(value.length.toDouble());
   }
