@@ -1,5 +1,4 @@
 import 'package:animation_login/page/view/auth/login/rive_login.dart';
-
 import 'package:flutter/material.dart';
 
 void main(){
