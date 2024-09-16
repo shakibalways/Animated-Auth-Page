@@ -11,6 +11,7 @@ class RiveLoginPage extends StatefulWidget {
 class _RiveLoginPageState extends State<RiveLoginPage> {
 //form key
   final GlobalKey<FormState> formKey = GlobalKey<FormState>();
+  // field controller
   final TextEditingController userNameController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
 
